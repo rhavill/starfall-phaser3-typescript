@@ -1,0 +1,29 @@
+{
+  "name": "starfall-phaser3-typescript",
+  "version": "1.0.0",
+  "description": "This is a simple video game created with the Phaser game framework:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch & live-server --port=8085"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhavill/starfall-phaser3-typescript.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhavill/starfall-phaser3-typescript/issues"
+  },
+  "homepage": "https://github.com/rhavill/starfall-phaser3-typescript#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "phaser": "^3.20.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
