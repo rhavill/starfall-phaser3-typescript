@@ -71,6 +71,10 @@ export class GameScene extends Phaser.Scene {
       this.starsFallen += 1;
       this.time.delayedCall(100, function (star) {
         star.destroy();
+        if (this.starsFallen > 2) {
+          this.scene.start("ScoreScene", 
+            { starsCaught: this.starsCaught });
+        }
       }, [star], this);
     }
   }
